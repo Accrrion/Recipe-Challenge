@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 238, 212);
+    margin: 0;
+    padding: 40px 0;
+    font-family: Outfit, sans-serif ;
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    margin: 120px;
+    border-radius: 16px;
+    padding: 1.5rem;
+}
+
+.image-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+img{
+    width: 100% ;
+    border: 16px;
+    padding: 20px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 5%;
+    border: 1px;
+}
+.mainheading{
+    color:hsl(24, 5%, 18%) ;
+    font-family: young serif, serif;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.p1{
+    font-family: sans-serif;
+    color: hsl(30, 10%, 34%);
+    margin: 20px;
+}
+
+.prep-time{
+    background-color: rgb(247, 239, 229);
+    margin: 30px;
+    padding: 1rem;
+    border-radius: 8px;
+    list-style-position: inside;
+}
+
+.prep-time ul > *:not(:last-child){
+    margin-bottom: 0.5rem;
+
+}
+
+.prep-time > *:not(:last-child){
+    margin-bottom: 16px;
+}
+
+.prep-time span{
+    font-weight: 600;
+}
+
+.prep-time h3{
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredients {
+   list-style-position: inside;
+   margin: 30px;
+   padding: 0.8rem;
+
+}
+
+.ingredients ul > *:not(:last-child){
+    margin-bottom: 0.5rem;
+
+}
+
+.ingredients > *:not(:last-child){
+    margin-bottom: 16px;
+}
+
+.ingredients span{
+    font-weight: 600;
+}
+
+.ingredients h2{
+     color: hsl(14, 45%, 36%);
+}
+
+.instructions{
+    margin: 30px;
+    padding: 0.8rem;
+    list-style-position: inside;
+    color: hsl(24, 5%, 18%);
+}
+
+.instructions h2{
+     color:hsl(14, 45%, 36%);
+}
+
+.instructions li{
+    padding: 0.5rem;
+
+}
+
+hr {
+    margin: 2rem 0;
+    background-color: rgb(247, 239, 229);
+}
+
+.instructions span{
+    font-weight: 700;
+    color:hsl(24, 5%, 18%);
+}
+
+.nutrition{
+ width: 100%;
+}
+
+.nutrition h2{
+    color:hsl(14, 45%, 36%);
+}
+
+.nutrition div{
+display: flex;
+width: 100%;
+padding: 1rem 2rem;
+}
+
+.nutrition div > *{
+flex: 1;
+}
+
+.nutrition hr{
+    margin: 0;
+}
+
+.nutrition span{
+    font-weight: 700;
+    color:hsl(14, 45%, 36%)
+}
+
